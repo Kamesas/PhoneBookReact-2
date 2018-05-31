@@ -12,7 +12,6 @@ class WebPage extends React.Component {
 				  <div className="column">
 
 				  	<Header />
-
 				  	<ListContacts />
 
 				  </div>		  

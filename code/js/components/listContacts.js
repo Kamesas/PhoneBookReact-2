@@ -5,21 +5,21 @@ class ListContacts extends React.Component {
   render() {
       return (     	
 
-      	<div className="ui animated list">
+      	<div className="ui large animated list">
 
 				  <div className="item">
-				    <img className="ui avatar image" src="https://semantic-ui.com/images/avatar/small/helen.jpg" />
+				    <img className="ui avatar image" src="https://semantic-ui.com/images/avatar/large/helen.jpg" />
 				    <div className="content">
 				      <a className="header">Veronika Ossi</a>
-				      <div className="description">Еще не было просмотрено</div>
+				      <div className="description">+380997708164</div>
 				    </div>
 				  </div>
 
 				  <div className="item">
-				    <img className="ui avatar image" src="https://semantic-ui.com/images/avatar/small/christian.jpg" />
+				    <img className="ui avatar image" src="https://semantic-ui.com/images/avatar/large/christian.jpg" />
 				    <div className="content">
 				      <a className="header">Veronika Ossi</a>
-				      <div className="description">Еще не было просмотрено</div>
+				      <div className="description">+380997708164</div>
 				    </div>
 				  </div>
 
