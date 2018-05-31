@@ -1,7 +1,13 @@
+import 'babel-polyfill';
 import React from 'react';
 import ReactDOM from "react-dom";
+import WebPage from './components/webPage';
+//npm run start
 
-ReactDOM.render(
-  <h2>Здесь может быть любой текст</h2>, 
-  document.getElementById('fieldToShow')
+ ReactDOM.render(
+
+	<WebPage />,
+	document.getElementById('app')
+
 );
+
