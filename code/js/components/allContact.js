@@ -32,24 +32,18 @@ class AllContact extends React.Component {
 
 		    <div className="column">
 		    	
-		    	<div className="ui large list">
+		    	<div className="ui large animated list">
 						  <div className="item">
 						    <img className="ui avatar image" src="https://semantic-ui.com/images/avatar/large/christian.jpg" />
 						    <div className="content">
-						      <a className="header">					      	
-						      	<div className="ui small input">
-										  <input type="text" placeholder="Введите имя" />									 
-										</div>
-						      </a>
-						      <div className="description">
-						      	<div className="ui small input">									  
-										  <input type="text" placeholder="Введите номер" />									  
-										</div>
-						      </div>
+						      <a className="header"><input type="text" defaultValue={this.props.name} /></a>
+						      <div className="description"><input type="text" defaultValue={this.props.num} /></div>
+						      <div className="description"><input type="text" defaultValue={this.props.email} /></div>
+						      <hr />						      				      
 						    </div>
 						  </div>
 						</div>
-			    </div>
+			    </div>	    	
 
 		    </div>	
 
