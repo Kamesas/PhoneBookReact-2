@@ -24,22 +24,31 @@ class AllContact extends React.Component {
 
 		    <div className="column">
 
-		    	<div className="mini ui buttons right floated">						  
-					  <button onClick={this.showMore} className="ui blue basic button">Развернуть</button>
-					  <button onClick={this.saveEdit} className="ui green basic button">Сохранить</button>
-					  <button onClick={this.delContact} className="ui red basic button">Удалить</button>
+		    	<div className="mini ui buttons right floated">			  
+					  <button onClick={this.saveEdit} className="ui green basic button">Сохранить</button>					 
 					</div>	    		
 
 		    <div className="column">
 		    	
-		    	<div className="ui large animated list">
+		    	<div className="ui large list">
 						  <div className="item">
 						    <img className="ui avatar image" src="https://semantic-ui.com/images/avatar/large/christian.jpg" />
 						    <div className="content">
-						      <a className="header"><input type="text" defaultValue={this.props.name} /></a>
-						      <div className="description"><input type="text" defaultValue={this.props.num} /></div>
-						      <div className="description"><input type="text" defaultValue={this.props.email} /></div>
-						      <hr />						      				      
+						      <a className="header">
+						      	<div className="ui mini input focus">
+									 	 <input type="text" defaultValue={this.props.name} />
+										</div>
+									</a>
+						      <div className="description">
+						      	<div className="ui mini input focus">
+									 	 <input type="text" defaultValue={this.props.num} />									
+										</div>						      
+						      </div>
+						      <div className="description">
+						      	<div className="ui mini input focus">									 	 
+									 	 <input type="text" defaultValue={this.props.email} />
+										</div>						      
+						      </div>						      						   						      						      				      
 						    </div>
 						  </div>
 						</div>
@@ -58,8 +67,7 @@ class AllContact extends React.Component {
 
 		    <div className="column">
 
-					<div className="mini ui buttons right floated">						  
-					  <button onClick={this.showMore} className="ui blue basic button">Развернуть</button>
+					<div className="mini ui buttons right floated">					 
 					  <button onClick={this.editContact} className="ui green basic button">Редактировать</button>
 					  <button onClick={this.delContact} className="ui red basic button">Удалить</button>
 					</div>	    		
