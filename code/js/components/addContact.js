@@ -2,11 +2,15 @@ import React from 'react';
 
 class AddContact extends React.Component {
 
-  render() {
-      return (      	
-			
-		  	<button className="ui basic right floated button green"><i className="icon user"></i> Добавить контакт </button>
+	addContact() {
+		alert('Добавить контакт');
+	};
 
+  render() {
+      return (			
+		  	<button onClick={this.addContact} className="ui basic right floated button green">
+		  		<i className="icon user"></i> Добавить контакт 
+		  	</button>
       ); 
   }
 
