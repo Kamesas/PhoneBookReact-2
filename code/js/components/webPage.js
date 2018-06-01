@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from "./header"
-import ListContacts from "./listContacts"
-
+import BodyContacts from "./bodyContact"
 
 class WebPage extends React.Component {
 
@@ -10,19 +9,10 @@ class WebPage extends React.Component {
       	
       	<div className="ui two column centered grid">
 				  <div className="column">
-				  
-				  	<Header />
 
-					  <div className="four column centered row">
-					    <div className="column">
+				  	<Header />					 
 
-					    </div>
-					    <div className="column">
-
-					    </div>
-					  </div>
-
-				  	<ListContacts />
+				  	<BodyContacts />
 
 				  </div>		  
 				</div>
