@@ -1,4 +1,7 @@
+import 'babel-polyfill';
 import React from 'react';
+import ReactDOM from "react-dom";
+
 import Header from "./header"
 import BodyContacts from "./bodyContact"
 
@@ -12,7 +15,7 @@ class WebPage extends React.Component {
 
 				  	<Header />					 
 
-				  	<BodyContacts />
+				  	<BodyContacts />				  	
 
 				  </div>		  
 				</div>
