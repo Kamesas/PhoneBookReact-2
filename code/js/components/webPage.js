@@ -10,8 +10,18 @@ class WebPage extends React.Component {
       	
       	<div className="ui two column centered grid">
 				  <div className="column">
-
+				  
 				  	<Header />
+
+					  <div className="four column centered row">
+					    <div className="column">
+
+					    </div>
+					    <div className="column">
+
+					    </div>
+					  </div>
+
 				  	<ListContacts />
 
 				  </div>		  
